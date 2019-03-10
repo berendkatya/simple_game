@@ -9,8 +9,9 @@ window.title('Bubble Blaster')
 
 c = Canvas(window, width=WIDTH, height=HEIGHT, bg='black')
 
-
+## background image
 filename = PhotoImage(file="C:/Users/N551/SPoW_82318_01.png")
+## ship image
 filename2 = PhotoImage(file="C:/Users/N551/ship.png")
 
 c.create_image((0, 0), image=filename, anchor="nw")
